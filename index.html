@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>complete responsive ecommerce website design tutorial</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+<!-- header section starts  -->
+
+<header>
+
+    <div id="menu-bar" class="fas fa-bars"></div>
+
+    <a href="#" class="logo">L's store</a>
+
+    <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#products">products</a>
+        <a href="#featured">featured</a>
+        <a href="#products">Sale</a>
+        <a href="#review">review</a>
+    </nav>
+
+    <div class="icons">
+        <a href="#" class="fas fa-heart"></a>
+        <a href="#" class="fas fa-shopping-cart"></a>
+        <a href="#" class="fas fa-user"></a>
+    </div>
+
+</header>
+
+<!-- header section ends -->
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+    <div class="slide-container active">
+        <div class="slide">
+            <div class="content">
+                <span>nike red shoes</span>
+                <h3>NIKE AIR MAX TERRASCAPE 90</h3>
+                <p>Urban meets outdoors meets better for the world.</p>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+            <div class="image">
+                <img src="images/home-shoe-1.png" class="shoe" alt="">
+                <img src="images/home-text-1.png" class="text" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div class="slide-container">
+        <div class="slide">
+            <div class="content">
+                <span>nike blue shoes</span>
+                <h3>NIKE AIR MAX DAWN</h3>
+                <p>The future is in the air.</p>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+            <div class="image">
+                <img src="images/home-shoe-2.png" class="shoe" alt="">
+                <img src="images/home-text-2.png" class="text" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div class="slide-container">
+        <div class="slide">
+            <div class="content">
+                <span>nike yellow shoes</span>
+                <h3>STAYCATION STAPLES</h3>
+                <p> Keeping it low-key this spring break? We've got styles that'll keep the energy high.</p>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+            <div class="image">
+                <img src="images/home-shoe-3.png" class="shoe" alt="">
+                <img src="images/home-text-3.png" class="text" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div id="prev" class="fas fa-chevron-left" onclick="prev()"></div>
+    <div id="next" class="fas fa-chevron-right" onclick="next()"></div>
+
+</section>
+
+<!-- home section ends -->
+
+<!-- service section starts  -->
+
+<section class="service">
+
+    <div class="box-container">
+
+        <div class="box">
+            <i class="fas fa-shipping-fast"></i>
+            <h3>fast delivery</h3>
+            <p>The fastest delivary in your city.</p>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-undo"></i>
+            <h3>10 days replacements</h3>
+            <p>Does not fit?Get back to us for replacement :)</p>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-headset"></i>
+            <h3>Customer support</h3>
+            <p>We are here for you, get in touch with us today.</p>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- service section ends -->
+
+<!-- products section starts  -->
+
+<section class="products" id="products">
+
+    <h1 class="heading"> latest <span>products</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-share"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <img src="images/product-1.png" alt="">
+            <div class="content">
+                <h3>nike shoes</h3>
+                <div class="price">Kshs.12,099 <span>Kshs.15,099</span></div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-share"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <img src="images/product-2.png" alt="">
+            <div class="content">
+                <h3>nike shoes</h3>
+                <div class="price">Kshs.12,099 <span>Kshs.15,099</span></div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-share"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <img src="images/product-3.png" alt="">
+            <div class="content">
+                <h3>nike shoes</h3>
+                <div class="price">Kshs.12,099 <span>Kshs.15,099</span></div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-share"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <img src="images/product-4.png" alt="">
+            <div class="content">
+                <h3>nike shoes</h3>
+                <div class="price">Kshs.12,099 <span>Kshs.15,099</span></div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-share"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <img src="images/product-5.png" alt="">
+            <div class="content">
+                <h3>nike shoes</h3>
+                <div class="price">Kshs.12,099 <span>Kshs.15,099</span></div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-share"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <img src="images/product-6.png" alt="">
+            <div class="content">
+                <h3>nike shoes</h3>
+                <div class="price">Kshs.12,099 <span>Kshs.15,099</span></div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- products section ends -->
+
+<!-- featured section starts  -->
+
+<section class="featured" id="featured">
+
+    <h1 class="heading"> <span>featured</span> products </h1>
+
+    <div class="row">
+        <div class="image-container">
+            <div class="small-image">
+                <img src="images/f-img-1.1.png" class="featured-image-1" alt="">
+                <img src="images/f-img-1.2.png" class="featured-image-1" alt="">
+                <img src="images/f-img-1.3.png" class="featured-image-1" alt="">
+                <img src="images/f-img-1.4.png" class="featured-image-1" alt="">
+            </div>
+            <div class="big-image">
+                <img src="images/f-img-1.1.png" class="big-image-1" alt="">
+            </div>
+        </div>
+        <div class="content">
+            <h3>new nike airmax shoes</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+            <p>If you were outside in the '90s, you know about this hiking classic. Originally designed in 1994, the Air Mada is breathable, durable and has functional pull tabs with low-key branding. Leaning into heritage ACG colours and OG colour-blocking, the return of the Air Mada uses premium leathers and tooling for the modern adventurer.</p>
+            <div class="price">Kshs.8,099 <span>Kshs.12,099</span></div>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="image-container">
+            <div class="small-image">
+                <img src="images/f-img-2.1.png" class="featured-image-2" alt="">
+                <img src="images/f-img-2.2.png" class="featured-image-2" alt="">
+                <img src="images/f-img-2.3.png" class="featured-image-2" alt="">
+                <img src="images/f-img-2.4.png" class="featured-image-2" alt="">
+            </div>
+            <div class="big-image">
+                <img src="images/f-img-2.1.png" class="big-image-2" alt="">
+            </div>
+        </div>
+        <div class="content">
+            <h3>new nike airmax shoes</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+            <p>Taking inspiration from the human body and '90s athletics aesthetics, the Air Max 95 combines unbelievable comfort with head-turning style. Its upper draws inspiration from the human body, with the midsole representing the spine, its graduated panels flexing as muscles and a speed-lacing system acting as the shoe's ribs. This edition's iconic upper is mixed with suede, canvas and jacquard textiles, providing durable protection from the winter elements.</p>
+            <div class="price">Kshs.8,099 <span>Kshs.12,099</span></div>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="image-container">
+            <div class="small-image">
+                <img src="images/f-img-3.1.png" class="featured-image-3" alt="">
+                <img src="images/f-img-3.2.png" class="featured-image-3" alt="">
+                <img src="images/f-img-3.3.png" class="featured-image-3" alt="">
+                <img src="images/f-img-3.4.png" class="featured-image-3" alt="">
+            </div>
+            <div class="big-image">
+                <img src="images/f-img-3.1.png" class="big-image-3" alt="">
+            </div>
+        </div>
+        <div class="content">
+            <h3>new nike airmax shoes</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+            <p>From the gym to the courts and everywhere in between, the famed cross trainer from '87 lets you travel with ease and without a glitch. Details like the forefoot strap nod to the original, while reflective-design graphics and iridescent accents come together for a futuristic and utilitarian aesthetic. Designed at the time for performance sports, the heel's Air cushioning and mid-height collar keep your ride comfortable and secure for today's adventures.</p>
+            <div class="price">Kshs.8,099 <span>Kshs.12,099</span></div>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+    </div>
+
+</section>
+
+<!-- featured section ends -->
+
+<!-- review section starts  -->
+
+<section class="review" id="review">
+
+    <h1 class="heading"> customer's <span>review</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="images/pic1.png" alt="">
+            <h3>Martha </h3>
+            <p>"I was very happy with the shoes and extremely happy with the quick response of your customer service department, I emailed a question and they quickly responded to me with the answer. I will continue to use your site in the future."</p>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/pic2.png" alt="">
+            <h3>Eliud</h3>
+            <p>"I recently bought a good shoes; size 40 and everyone loves the shoe. It was a great fit and so beautiful. I really love it."</p>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/pic3.png" alt="">
+            <h3>Elizabeth</h3>
+            <p>"I love L's shoes store. Their products are affordable but with good quality. Fast shipping and great products. Recommended 5 thumbs up."</p>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- review section ends -->
+
+<!-- newsletter section starts  -->
+
+<section class="newsletter">
+
+    <div class="content">
+        <h3>monthly newsletter</h3>
+        <p>Sign up for Nike emails to be the first to see inspiring content, news and exclusive offers.</p>
+        <form action="">
+            <input type="email" placeholder="enter your email" class="box">
+            <input type="submit" value="send" class="btn">
+        </form>
+    </div>
+
+</section>
+
+<!-- newsletter section ends -->
+
+<!-- footer section  -->
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>our stores</h3>
+            <a href="#">Nairobi</a>
+            <a href="#">Kisumu</a>
+            <a href="#">Mombasa</a>
+            <a href="#">Kakamega</a>
+        </div>
+
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="#">home</a>
+            <a href="#">products</a>
+            <a href="#">featured</a>
+            <a href="#">review</a>
+        </div>
+
+        <div class="box">
+            <h3>extra links</h3>
+            <a href="#">my account</a>
+            <a href="#">my favorite</a>
+            <a href="#">my orders</a>
+            <a href="#">newsletter</a>
+        </div>
+
+        <div class="box">
+            <h3>follow us</h3>
+            <a href="https://www.facebook.com/">facebook</a>
+            <a href="https://www.twitter.com">twitter</a>
+            <a href="https://www.instagram.com">instagram</a>
+            <a href="https://www.linkedin.com">linkedin</a>
+        </div>
+
+        <div class="credit">created by <span> Okoth Elizabeth </span> | all rights reserved</div>
+
+    </div>
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+    
+</body>
+</html>
